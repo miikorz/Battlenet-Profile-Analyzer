@@ -20,6 +20,7 @@ namespace D3ArmoryTest
 {
     public partial class DiabloCharForm : Form
     {
+        private String gitTestCommit;
         ProfileShower _profileShower;
         private String masterURL;
         WebClient client = new WebClient();
