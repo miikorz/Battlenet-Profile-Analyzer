@@ -1,0 +1,30 @@
+SPLASH SCREEN
+-------------
+
+añadido timer con timer.intervals = 3500 para crear ticks de 3,5s, una vez se haga el primer tick llamamos a su evento y paramos el timer con timeLifeController.Stop(); despues cambiamos su result a OK this.DialogResult = DialogResult.OK; y cerramos el form con this.close() de esta manera al editar la clase Program.cs de esta manera             
+
+Splash sp = new Splash();
+
+if (sp.ShowDialog() == DialogResult.OK)
+{
+   Application.Run(new ProfileForm());
+}
+
+instanciamos al iniciar la aplicacion el splashscreen y lo mostramos, al ser ok despues del primer interval del timer pasaremos al form principal de la app
+
+HABLAR SOBRE USABILIDAD
+-----------------------
+
+HABLAR SOBRE IDIOMA INTERCAMBIABLE (CÓMO)
+-----------------------------------------
+
+
+BATTLENET PROFILE ANALYZER
+     
+
+     
+Miguel Burdeos Tébar
+Ciclo Desarrollo de Aplicaciones Multiplataforma
+Memoria del proyecto de DAM
+IES ABASTOS Curso 2015/2016
+Tutor: Beatriz Pérez Oñate
